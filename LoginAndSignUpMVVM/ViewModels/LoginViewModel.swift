@@ -72,6 +72,7 @@ class LoginViewModel:LoginViewModelProtocol,APIServiceCallBackDelegates {
         
     }
  
+    //MARK:- VALIDATOR FOR EMAIL
     fileprivate func validateUserNameAsEmailFormat(_ userName: String) -> Bool
     {
         let REGEX: String
